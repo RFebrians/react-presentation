@@ -1,0 +1,27 @@
+{
+  "name": "react-presentation",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "idx": "^2.4.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-impressjs": "^1.1.0",
+    "react-loader-spinner": "^4.0.0",
+    "react-scripts-ts": "3.1.0",
+    "react-typing-animation": "^1.6.2"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "PUBLIC_URL=/devops_presentation/ react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "ngrok": "./ngrok http 3000"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.3",
+    "@types/node": "^10.11.4",
+    "@types/react-dom": "^16.0.8",
+    "typescript": "^3.1.1"
+  }
+}

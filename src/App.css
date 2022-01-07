@@ -1,0 +1,88 @@
+html, body, #root {
+  height: 100%;
+}
+
+/* Color */
+.red {
+  color: #e91e63;
+}
+.blue {
+  color: #1b7e8b;
+}
+.yellow {
+  color: #E6A616;
+}
+
+/* Layout */
+.center-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  text-align: center
+}
+.inline {
+  display: inline-block;
+}
+.inline.right {
+  margin-left: 50px;
+}
+.right.line {
+  padding-left: 50px;
+  border-left: 2px solid blue;
+}
+.inline.left {
+  margin-right: 50px;
+}
+.left.line {
+  padding-right: 50px;
+  border-right: 2px solid blue;
+}
+.image-block {
+  position: relative;
+}
+.image-block img {
+  height: 50px;
+}
+.image-block img.large {
+  height: 300px;
+}
+.image-block div {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  border-bottom: 1px solid black;
+}
+
+/* Style */
+.big {
+  font-size: 200%;
+}
+.spare {
+  font-size: 70%;
+  opacity: 0.6;
+}
+.hide.future, .hide.past {
+  opacity: 0;
+}
+
+
+/* Animate.css */
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
+}

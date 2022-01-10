@@ -160,15 +160,15 @@ function App() {
             <div className="center">
               <div className="inline">
                 <i>Components</i>
-                <p>Section 1</p>
+                <p>Class | Function </p>
                 <div className="image-block">
                   <img src={thirteenthimg} alt="thirteenthimg"/>
                   <div>Desc</div>
                 </div>
               </div>
               <div className="inline right line">
-                <i>JSX</i>
-                <p>Section 2</p>
+                <i>JSX | </i>
+                <p>Element , Object , Children</p>
                 <div className="inline">
                   <div className="inline image-block">
                     <img src={eleventhimg} alt="eleventhimg"/>
@@ -204,41 +204,41 @@ function App() {
             <div className="center">
               <div className="inline">
                 <i>Class</i>
-                <p>Section 1</p>
+
                 <div className="image-block">
                   <img src={thirteenthimg} alt="thirteenthimg"/>
-                  <div>Desc</div>
+                  
                 </div>
               </div>
               <div className="inline right line">
                 <i>Hooks</i>
-                <p>Section 2</p>
+                
                 <div className="inline">
                   <div className="inline image-block">
                     <img src={eleventhimg} alt="eleventhimg"/>
-                    <div>Desc</div>
+                    
                   </div>
                   <div className="inline right image-block">
                     <img src={firstimg} alt="firstimg"/>
-                    <div>Desc</div>
+                    
                   </div>
                   <div className="inline right image-block">
                     <img src={thirdimg} alt="thirdimg"/>
-                    <div>Desc</div>
+                    
                   </div>
                 </div>
               </div>
               <div className="inline right line">
                 <i>Function</i>
-                <p>Section 3</p>
+                
                 <div className="inline">
                   <div className="inline image-block">
                     <img src={tenthimg} alt="tenthimg"/>
-                    <div>Desc</div>
+                    
                   </div>
                   <div className="inline right image-block">
                     <img src={fourteenthimg} alt="fourteenthimg"/>
-                    <div>Desc</div>
+                    
                   </div>
                 </div>
               </div>
@@ -256,27 +256,27 @@ function App() {
                 <i className="blue">Life-cycle</i>
                 <div className="image-block">
                   <img src={sixthimg} alt="sixthimg"/>
-                  <div>sixthimg</div>
+                  
                 </div>
               </div>
               <div className="inline right left line">
                 <i className="blue">Conditional Rendering</i>
                 <div className="image-block">
                   <img src={fifthimg} alt="fifthimg"/>
-                  <div>fifthimg</div>
+                  
                 </div>
               </div>
               <div className="inline">
                 <i className="blue">Props and State</i>
                 <div className="image-block">
                   <img src={twelvethimg} alt="twelvethimg"/>
-                  <div>twelvethimg</div>
+                  
                 </div>
               </div>
             </div>
           </Step>
 
-          {/* CD */}
+          {/* Async */}
           <Step data={{x: 1000, y:1380, z: 200, rotateY:-90, rotateZ: 90, scale: 1 }}>
             <div className="center">
               <p><b className="big">Async</b> Function</p>
@@ -288,20 +288,20 @@ function App() {
                 <b className="yellow">Fetch</b>
                 <div className="image-block">
                   <img src={seventhimg} alt="seventhimg"/>
-                  <div>Skeleton</div>
+                  
                 </div>
               </div>
               <div className="inline right line">
                 <b className="yellow">Axios</b>
                 <div className="image-block">
                   <img src={fourthimg} alt="fourthimg"/>
-                  <div>fourthimg</div>
+                  
                 </div>
               </div>
             </div>
           </Step>
 
-          {/* Code Pipeline */}
+          {/* Code Rotate */}
           <Step data={{x: 1000, y:3000, z: 100, rotateY:-90, rotateZ: 90 }}>
             <div className="center">
               <p><b className="big">CodeRotate</b></p>
@@ -357,7 +357,7 @@ function App() {
           </Step>
 
           <Step data={{x: 1000, y: 500, z: 3000, rotateY: 30 }} className="hide">
-            <p>Coming <b>Soon</b>, 2021.</p>
+            <p>Presentation <b>React</b>, 2022.</p>
           </Step>
         </Impress>
       </div>

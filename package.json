@@ -1,6 +1,7 @@
 {
   "name": "react-presentation",
   "version": "0.1.0",
+  "homepage": "https://github.com/RFebrians/react-presentation",
   "private": true,
   "dependencies": {
     "idx": "^2.4.0",
@@ -12,6 +13,8 @@
     "react-typing-animation": "^1.6.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
@@ -21,6 +24,7 @@
     "@types/jest": "^23.3.3",
     "@types/node": "^10.11.4",
     "@types/react-dom": "^16.0.8",
+    "gh-pages": "^3.2.3",
     "typescript": "^3.1.1"
   }
 }
